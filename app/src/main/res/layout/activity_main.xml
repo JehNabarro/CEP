@@ -28,13 +28,13 @@
 
    <LinearLayout
        android:layout_width="wrap_content"
-       android:layout_height="wrap_content">
+       android:layout_height="wrap_content"
+       android:layout_marginTop="40dp" >
 
         <TextView
             android:id="@+id/rsTexto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
             android:gravity="center"
             android:text="R$"
             android:textColor="#ffffff"
@@ -46,7 +46,6 @@
             android:id="@+id/precoTexto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
             android:gravity="center"
             android:text="00,00"
             android:textColor="#ffffff"
@@ -60,9 +59,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-
         android:textSize="18sp"
-        android:text="Prazo de 00 dias." />
+        android:text="Entrega em 00 dias." />
 
     <Button
         android:id="@+id/pagarButton"

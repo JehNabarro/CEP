@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FRETE</string>
+    <string name="app_name">Calcula Frete</string>
 
     <!-- Header that goes above the title of the earthquake event [CHAR LIMIT=50] -->
     <string name="header_event">Event</string>
