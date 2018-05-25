@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/frete_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.android.cep.MainActivity">
+
+    <EditText
+        android:id="@+id/cepEdit"
+        style="@style/BgTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calcButton"
+        style="@style/BtnPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Calcular" />
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/rsTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="R$"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+
+            />
+
+        <TextView
+            android:id="@+id/precoTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="00,00"
+            android:textColor="#ffffff"
+            android:textSize="50sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/prazoTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+
+        android:textSize="18sp"
+        android:text="Prazo de 00 dias." />
+
+    <Button
+        android:id="@+id/pagarButton"
+        style="@style/BtnPagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Pagar" />
+
+
+</LinearLayout>

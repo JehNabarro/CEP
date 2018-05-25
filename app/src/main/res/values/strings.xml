@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FRETE</string>
+
+    <!-- Header that goes above the title of the earthquake event [CHAR LIMIT=50] -->
+    <string name="header_event">Event</string>
+
+    <!-- Header that goes above the date of the earthquake event [CHAR LIMIT=50] -->
+    <string name="header_date">Date</string>
+
+    <!-- Header that goes above whether or not there was a tsunami alert issued
+         during the earthquake event [CHAR LIMIT=50] -->
+    <string name="connection_error">Erro de conecção</string>
+
+    <!-- Text when there was no tsunami alert issued [CHAR LIMIT=50] -->
+    <string name="xml_error">Erro de XML</string>
+
+    <!-- Text when there was a tsunami alert issued [CHAR LIMIT=50] -->
+    <string name="alert_yes">Yes</string>
+
+    <!-- Text when there was a tsunami alert issued [CHAR LIMIT=50] -->
+    <string name="alert_not_available">Not available</string>
+
+</resources>
